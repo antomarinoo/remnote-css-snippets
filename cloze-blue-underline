@@ -1,0 +1,12 @@
+/* Underlined blue cloze */
+
+.cloze {
+    background-color: transparent !important;
+    padding: 0px 0px;
+    text-decoration: none;
+    border-radius: 0px;
+    border-bottom: 2px; !important;
+    border-color: blue !important;
+    font-weight: 400 !important;
+    color: blue !important;
+}
