@@ -1,6 +1,7 @@
 # remnote-css-snippets
 A collection of my favourite css snippets for RemNote.
 
+## Cloze gray background and remove bottom underline
 ```
 /* Cloze gray background and remove bottom underline */
 
@@ -14,7 +15,7 @@ A collection of my favourite css snippets for RemNote.
     color: black !important;
 }
 ```
-
+## Underlined blue cloze
 ```
 /* Underlined blue cloze */
 
@@ -27,5 +28,31 @@ A collection of my favourite css snippets for RemNote.
     border-color: blue !important;
     font-weight: 400 !important;
     color: blue !important;
+}
+```
+## Default content zoom 
+```
+/* Default content zoom */
+#content {
+  zoom: 90%;
+}
+```
+## Smaller and thinner headings
+```
+/* Smaller and thinner headings */
+.rem-text.rem-header--1 {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.rem-text.rem-header--2 {
+
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.rem-text.rem-header--3 {
+	font-size: 18px;
+	font-weight: 500;
 }
 ```
